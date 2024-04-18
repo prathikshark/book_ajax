@@ -1,0 +1,5 @@
+<div id="allbooks">
+  <% @books.each do |book| %>
+    <%= render partial: "shared/onebook", locals: { book: book } %>
+  <% end %>
+</div>
